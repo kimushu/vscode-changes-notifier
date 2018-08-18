@@ -1,0 +1,22 @@
+{
+  "name": "vscode-changes-notifier",
+  "version": "1.0.0",
+  "description": "Notify code changes on vscode master",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "tsc -p .",
+    "start": "node index.js"
+  },
+  "author": "kimu_shu",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {
+    "@types/request-promise": "^4.1.42",
+    "typescript": "^3.0.1"
+  }
+}
